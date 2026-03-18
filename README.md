@@ -1,7 +1,7 @@
-# 🤖 Ishan BOT (AI Chatbot)
+# 🤖 ThinkBot (AI Chatbot)
 
 A fast and modern AI chatbot built using **Streamlit** and powered by the **Groq API (LLaMA 3.1 models)**.
-This project provides a clean chat interface with multi-chat support and customizable system prompts.
+It provides a clean chat interface with multi-chat support and customizable system prompts.
 
 ---
 
@@ -10,7 +10,7 @@ This project provides a clean chat interface with multi-chat support and customi
 * 💬 Multi-chat conversation system
 * 🧠 Custom system prompts (General, Programming, Study, Math)
 * ⚡ Ultra-fast responses using Groq API
-* 🖥️ Clean and simple UI with Streamlit
+* 🖥️ Clean and minimal UI with Streamlit
 * 📁 Chat history management
 * 🔄 Context-aware responses
 
@@ -30,10 +30,10 @@ This project provides a clean chat interface with multi-chat support and customi
 ```
 chatbot/
 │
-├── app.py               # Main Streamlit app
+├── app.py              # Main Streamlit app
 ├── requirements.txt    # Dependencies
 ├── chats.json          # Chat storage (optional)
-├── README.md           # Project documentation
+├── README.md           # Documentation
 └── .gitignore          # Ignore unnecessary files
 ```
 
@@ -78,8 +78,6 @@ Add your Groq API key:
 GROQ_API_KEY = "your_api_key_here"
 ```
 
-> ⚠️ Never upload this file to GitHub
-
 ---
 
 ### 4️⃣ Run the app
@@ -92,14 +90,12 @@ streamlit run app.py
 
 ## 🌐 Deployment
 
-This app can be deployed for free using:
-
-👉 Streamlit Community Cloud
+This app can be deployed for free using Streamlit Community Cloud.
 
 ### Steps:
 
 1. Push your code to GitHub
-2. Go to Streamlit Cloud
+2. Go to https://share.streamlit.io/
 3. Create a new app
 4. Add your `GROQ_API_KEY` in **Secrets**
 5. Deploy
@@ -118,21 +114,6 @@ This app can be deployed for free using:
 
 * `llama-3.1-8b-instant` (recommended)
 * `llama-3.1-70b-versatile`
-
----
-
-## 📸 Screenshots (Optional)
-
-*Add screenshots of your chatbot UI here for better presentation*
-
----
-
-## 🎯 Future Improvements
-
-* Typing animation (streaming responses)
-* Voice assistant integration
-* Chat export feature
-* Dark mode UI enhancements
 
 ---
 
